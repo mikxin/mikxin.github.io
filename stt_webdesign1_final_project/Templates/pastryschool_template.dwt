@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>pastry_school_template</title>
+<!-- TemplateEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+<!-- TemplateParam name="home" type="text" value="" -->
+<!-- TemplateParam name="courses" type="text" value="" -->
+<!-- TemplateParam name="recipes" type="text" value="" -->
+<!-- TemplateParam name="contact" type="text" value="" -->
+</head>
+
+<body>
+<div id="wrapper"> <a name="top_of_page" id="top_of_page"></a>
+  <div id="banner"><a href="../index.html"><img src="../images/banner_final2.png" width="800" height="176" alt="University of Wisconsin-Madison Pastry School" /></a></div>
+  <div id="navbar"> <a href="#startcontent"><img src="../images/spacer.gif" width="1" height="1" alt="skip navigation and go to page content" /></a>
+    <ul>
+      <li><a href="../index.html" class="@@(home)@@">Home</a></li>
+      <li><a href="../courses.html" class="@@(courses)@@">Courses</a></li>
+      <li><a href="../recipe.html" class="@@(recipes)@@">Recipes</a></li>
+      <li><a href="../contact.html" class="@@(contact)@@">Contact Us</a></li>
+      <li><a href="http://www.wisc.edu" target="_blank">UW Home</a></li>
+    </ul>
+  </div>
+  <div id="sidebar"><a href="#main_content"><img src="../images/spacer.gif" width="1" height="1" alt="skip sidebar and go to main content" /></a><a name="startcontent" id="startcontent"></a><!-- TemplateBeginEditable name="sidebar" -->sidebar content goes here<!-- TemplateEndEditable --> </div>
+  <div id="content"> <a name="main_content" id="main_content"></a><!-- TemplateBeginEditable name="content" -->content goes here<!-- TemplateEndEditable --> </div>
+  <div id="footer">
+    <p>File last updated:<!-- TemplateBeginEditable name="date" --> 
+      <!-- #BeginDate format:Am1 -->August 25, 2011<!-- #EndDate --> 
+      <!-- TemplateEndEditable --><br />
+      Feedback, questions or accessibility issues: <a href="mailto:mtan4@wisc.edu">mtan4@wisc.edu</a><br />
+      Copyright &copy; 2011 The Board of Regents of the University of Wisconsin System <br />
+      This website is fictitious. There is no UW-Madison Pastry School.</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+	background: #432210 url(images/bckgrd_final.jpg);
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 90%;
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	background: #FFFFFF url(images/wrapper_bck_final.png) repeat-y;
+	width: 800px;
+	text-align: left;
+	margin: 0 auto;
+	padding: 0px;
+}
+#navbar {
+	background-color: #562414;
+	height: 50px;
+	color: #DEAD72;
+}
+#navbar ul {
+	margin: 0px;
+	padding: 15px;
+}
+#navbar ul li {
+	display: inline;
+	padding: 10px 30px 5px 5px;
+	margin: 0px;
+}
+#navbar a:link , #navbar a:visited{
+	color: #DEAA6D;
+	text-decoration: none;
+}
+#navbar a:hover {
+	color: #FF0;
+}
+#navbar ul li a.current {
+	color: #FCF;
+}
+#sidebar {
+	width: 169px;
+	float: left;
+	margin: 0px;
+	padding: 5px 15px 15px 15px;
+	text-align: left;
+	background-color: #FFE4CE;
+	border-right: 1px solid #562414;	
+}
+#sidebar h1 {
+	font-size: 160%;
+	color: #562414;
+}
+#sidebar h2 {
+	font-size: 130%;
+	color: #9D7146;
+}
+.photoright {
+	font-size: 90%;
+	color: #562414;
+	float: right;
+	margin: 0px;
+	padding: 10px;
+}
+#content {
+	float: right;
+	padding: 5px 15px 15px 15px;
+	background-color: #FFF;
+	border-left: 1px solid #562414;
+	width: 570px;
+	margin: 0px 0px 0px -1px;
+}
+#content h1 {
+	font-size: 180%;
+	color: #562414;
+}
+#content h2 {
+	font-size: 140%;
+	color: #9D7146;
+}
+#content h3 {
+	font-size: 100%;
+	font-weight: bold;
+	color: #A55231;
+	margin: 0px;
+	padding: 0px;
+}
+#content p {
+	padding: 10px 10px 10px 0px;
+	line-height: 1.5em;
+	margin: 0px;
+}
+#content ul li {
+	list-style-type: disc;
+	padding: 1px;
+	line-height: 1.5em;
+}
+#content ol {
+	line-height: 1.5em;
+}
+#sidebar a:link, #content a:link {
+	text-decoration: none;
+	color: #BD6D41;
+}
+#sidebar a:visited , #content a:visited{
+	color: #562414;
+}
+#footer {
+	clear: both;
+	background-color: #CD935C;
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 95%;
+	letter-spacing: .05em;
+	color: #300;
+	border-top: dotted 2px #35170D;
+}
+#footer a:link {
+	color: #FFF;
+}
+table {
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+	text-align: left;
+	border: 2px solid #3C1B13;
+}
+th , td{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 110%;
+	border: 1px solid #351710;
+	background-color: #FFFEF0;
+	padding: 10px 10px 5px 10px;
+	margin: 0px;
+}
+a img {
+	border-style: none;
+}

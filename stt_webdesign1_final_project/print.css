@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#navbar {
+	display: none;
+}
+#footer a:link {
+	color: #000;
+}
+#content{
+	margin: 0px;
+	width: 529px;
+	border-left: none;
+}
