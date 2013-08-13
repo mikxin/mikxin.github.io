@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>pastry_lover_template</title>
+<!-- TemplateEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<!-- TemplateParam name="home" type="text" value="" -->
+<!-- TemplateParam name="chef" type="text" value="" -->
+<!-- TemplateParam name="baked_goods" type="text" value="" -->
+<!-- TemplateParam name="hours" type="text" value="" -->
+<!-- TemplateParam name="contact" type="text" value="" -->
+<!-- TemplateParam name="bread" type="text" value="" -->
+<!-- TemplateParam name="cake" type="text" value="" -->
+<!-- TemplateParam name="tart_pie" type="text" value="" -->
+<!-- TemplateParam name="cookie" type="text" value="" -->
+</head>
+
+<body>
+<div id = "container">
+<div id = "header">
+	<p><a href="../index.html"><img src="../images/PL_logo_vector_final.gif" width="184" height="184" alt="Pastry Lover" /></a></p>
+</div>
+<div id = "navbar">
+<ul class = "nav">
+    	<li><a href="../index.html" class="@@(home)@@" >Home</a></li>
+        <li><a href="../chef.html" class="@@(chef)@@" >Chefs</a></li>
+        <li><a href="../baked_goods.html" class="@@(baked_goods)@@" >Baked Goods</a>
+        	<ul id = "submenu">
+           	  <li><a href="../bread.html" class="@@(bread)@@">Breads</a></li>
+            	<li><a href="../cake.html" class="@@(cake)@@">Cakes</a></li>
+                <li><a href="../tart_pie.html" class="@@(tart_pie)@@">Tarts &amp; Pies</a></li>
+            	<li><a href="../cookie.html" class="@@(cookie)@@">Cookies</a></li>
+                
+          </ul>
+      </li>
+      <li><a href="../hours.html" class="@@(hours)@@">Hours</a></li>
+      <li><a href="../contact.html" class="@@(contact)@@" >Contact Us</a>
+      </li>
+    </ul>
+</div>
+<div id = "main"><!-- TemplateBeginEditable name="content" -->
+  <p>Content</p>
+<!-- TemplateEndEditable -->
+</div>
+<div id = "footer">
+	<p>Pastry Lover  <br />
+	  Phone: 608-698-0001 Fax: 608-695-7654
+	  <br />
+	  102 North Orchard Street<br />
+	  53715 Madison WI
+      <br />
+      Website template by: Mik Xin Tan
+	</p>
+</div>
+</div>
+</body>
+</html>

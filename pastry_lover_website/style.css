@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+body {
+	text-align: center;
+	background: #FEFC98 url(images/background_wave_final.gif) no-repeat scroll center top;	
+}
+#container {
+	width: 850px;
+	text-align: left;
+	margin: 0 auto;
+}
+#header {
+	padding: 0px;
+	margin: 0px;
+	height: 193px;
+}
+#header p {
+	margin: 0px;
+	padding: 0px;
+}
+#navbar {
+	float: left;
+	width: 150px;
+	height: 500px;
+	background-color: #E0ED9F;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #030;
+}
+#navbar ul {
+	margin: 0px;
+	text-align: left;
+	padding: 0px;
+}
+#navbar ul li  {
+	list-style-type: none;
+	padding: 10px;
+	/* to placed the nested <ul> in a position relative to this <li>
+	when cursor hovers over it */
+	position:relative; 
+}
+/* hover css for the main navbar links */
+#navbar ul li a:hover{
+	margin: 0 auto;
+	color: #FFF;
+	background-color: #FF4848;
+}
+/* normal look of navbar links and visited state are the same 
+to ensure button looks the same after it is clicked*/
+#navbar ul li a, #navbar ul li a:visited {
+	display: block;
+	color: #002B02;
+	text-decoration: none;
+	padding: 10px;
+}
+/* a visual cue for viewers which oage they are currently viewing */
+#navbar ul li a.current{
+	background-color: #F69;
+	color: #F5DFFF;
+}
+/* the nested <ul> which is hidden when the particular link is
+not hovered over */
+#navbar ul li ul{ 
+	display: none;
+	position: absolute;
+	left: 149px;
+	top: 10px;
+	width: 150px;
+}
+/* the hidden nested <ul> is displayed when the parent link is hovered over */
+#navbar ul li:hover ul{
+	display: block;
+	background-color: #C5D18C;
+	border: 2px dotted #390;
+	}
+#photocaption  {
+	float: left;
+	font-size: 70%;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+#main {
+	height: 480px;
+	background: url(images/PL_logo_backgrd.png) #F3FED4 no-repeat 480px bottom;
+	float: right;
+	width: 680px;
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 90%;
+	border: 10px solid #E0ED9F;
+}
+#main h1 {
+	padding: 10px 20px 0px 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #336600;
+	margin-top: 0px;
+}
+#main h2 {
+	padding: 0px 20px;
+	color: #390;
+}
+#main p {
+	padding: 5px 20px 0px 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	letter-spacing: 0.03em;
+	margin: 0;
+	clear: right;
+}
+#main a {
+	text-decoration: none;
+	color: #396;
+}
+#main ul {
+	list-style-image: url(images/list_img.png);
+	margin: 10px 10px 10px 30px;
+	clear: right;
+	float: left;
+}
+#main ul li {
+	margin: 5px;
+}
+
+#footer {
+	background-color: #FECC32;
+	text-align: center;
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+}
+#footer p {
+	margin: 0px;
+	padding: 5px;
+	border: 5px double #7F5337;
+	font-family: Verdana, Geneva, sans-serif ;
+	font-size: 80%;
+}
+a img  {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
