@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Sky Game</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<script type="text/javascript">
+	    window.onload = function () {
+	        //I'm assuming you have a screen that is wider
+	        var canvas = document.getElementById("3darea");
+	        var ratio = 1024 / 768;
+	        canvas.height = 768; //document.height;www
+	        canvas.width = 1024;//eeee canvas.height * ratio;
+	    }
+	</script>
+	<script type="text/javascript" src="copperlichtdata/copperlicht.js"></script>
+	<style>
+        .alert {
+            background-color: #FFFF73;
+            border-radius: 10px;
+            display: none;
+            opacity: 0.6;
+            width : 200px;
+            position:relative;
+            top:100px;
+            left:100px;
+            height:auto;
+            padding: 10px;
+            z-index: 100;
+        }
+
+        
+    </style>
+</head>
+<body oncontextmenu = "return false;">
+	<div id="game" class="help_link" >
+		<div align="center" >
+            <!--span id="chat" class="alert"> Some Text that automatically geos to the lext lien blah blah blah</span-->
+            <canvas id="3darea" style="background-color:#000000" ></canvas>
+		</div>
+        <br />
+	</div>
+    <script type="text/javascript" src = "levels.js"></script>
+	<script type="text/javascript" src = "FloorPlane.js"></script>
+    <script type="text/javascript" src = "pulse.js"></script>
+    <script type="text/javascript" src = "Bullets.js"></script>
+    <script type="text/javascript" src = "Enemies.js"></script>
+    <script type="text/javascript" src = "Collectibles.js"></script>
+    <script type="text/javascript" src = "HUD.js"></script>
+    <script type="text/javascript" src = "Portal.js"></script>
+    <script type="text/javascript" src = "Airstream.js"></script>
+	<script type="text/javascript" src = "world.js"></script>
+	<script type="text/javascript" src = "main.js"></script>
+    <script type="text/javascript" src = "Keyboard.js"></script>
+    <script type="text/javascript" src = "airship.js"></script>
+    <script type="text/javascript" src = "Asteroid.js"></script>
+</body>
+</html>
