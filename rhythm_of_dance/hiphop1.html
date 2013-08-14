@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hip Hop 1</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type = "text/javascript" src = "processing-1.4.1.js"></script>
+
+<script type = "text/processing" data-processing-target = "myCanvas">
+int eNum = 7;
+float[] eSize = new float[eNum];
+boolean[] maxSize = new boolean[eNum];
+
+void setup(){
+  size(800, 200, P2D);
+  //initialize
+  for(int i = 0; i < eNum; i++){
+    eSize[i] = 0;
+    maxSize[i] = false;
+  }
+}
+
+void draw(){
+  background(0, 0);
+  noFill();
+  
+  for(int i = 0; i < eNum; i++){
+    stroke(random(0, 255), random(0, 255), random(0, 255));
+    strokeWeight(random(2, 8));
+    if(eSize[i] >= random(100, 200))
+      maxSize[i] = true;
+    if(eSize[i] <= 0)
+      maxSize[i] = false;
+    if(maxSize[i]){
+      eSize[i] -= random(2, 10);
+    }
+    else
+      eSize[i] += random(5, 25);
+    ellipse(100 * i + 100, 100, eSize[i], eSize[i]);
+  }
+}
+
+
+</script>
+<script type = "text/processing" data-processing-target = "myCanvas2">
+int eNum = 7;
+float[] eSize = new float[eNum];
+boolean[] maxSize = new boolean[eNum];
+
+void setup(){
+  size(800, 200, P2D);
+  //initialize
+  for(int i = 0; i < eNum; i++){
+    eSize[i] = 0;
+    maxSize[i] = false;
+  }
+}
+
+void draw(){
+  background(0, 0);
+  noFill();
+  
+  for(int i = 0; i < eNum; i++){
+    stroke(random(0, 255), random(0, 255), random(0, 255));
+    strokeWeight(random(2, 8));
+    if(eSize[i] >= random(100, 200))
+      maxSize[i] = true;
+    if(eSize[i] <= 0)
+      maxSize[i] = false;
+    if(maxSize[i]){
+      eSize[i] -= random(2, 10);
+    }
+    else
+      eSize[i] += random(5, 25);
+    ellipse(100 * i + 100, 100, eSize[i], eSize[i]);
+  }
+}
+
+
+</script>
+</head>
+
+<body>
+
+
+<div id = "hiphop1">
+ <canvas id="myCanvas"></canvas>
+ 
+ <div id = "hiphopgirl1">
+</div>
+
+</div>
+<div id = "hiphop1b">
+ <canvas id="myCanvas2"></canvas>
+</div>
+<div id = "next">
+<a class = "next" href = "hiphop2.html"><img src = "image/arrow.png"/></a>
+</div>
+</body>
+
+</html>

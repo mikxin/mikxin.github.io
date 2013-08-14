@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tap 1</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type = "text/javascript" src = "processing-1.4.1.js"></script>
+
+<script type = "text/processing" data-processing-target = "myCanvas">
+
+int display = 0;
+
+void setup(){
+  size(800, 600, P2D);
+  frameRate(5);
+}
+
+void draw(){
+  if(display >= 100)
+    display = 0;
+  display++;
+  //display = !display;
+  //noStroke();
+  float angle = 0;
+  background(0, 0);
+  translate(400, 300);
+  for(int i = 0; i < 30; i++){
+
+    fill(255);
+    rotate(2 * PI /30);
+    
+    if(i % 2 == 0 && display % 5 == 0){
+      fill(255, 0, 0);
+
+    }
+    else if(i % 2 != 0 && display % 5 != 0){
+      fill(100, 0, 255);
+    }
+ 
+    ellipse(100, 100, 20, 20);
+    ellipse(200, 200, 20, 20);
+
+  }
+}
+</script>
+</head>
+
+<body>
+
+
+<div id = "tap1">
+ <canvas id="myCanvas"></canvas>
+</div>
+<div id = "next">
+<a class = "next" href = "tap2.html"><img src = "image/arrow.png"/></a>
+</div>
+</body>
+
+</html>

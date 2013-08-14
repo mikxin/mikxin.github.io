@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    background: url("black_twill.png");
+    
+}
+
+#title{
+    height:600px;
+}
+
+h1{
+    text-align: center;
+    padding-top:300px;
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+    color: #fff;  
+}
+
+p, a{
+   text-align:center;
+   color: #fff; 
+   text-decoration:none;
+}
+
+#next{
+    width:100px;
+    height:100px;
+    background:url("image/arrow.png") center no-repeat;
+    margin:auto;
+}
+
+#control{
+    width:900px;
+    margin:auto;
+}
+
+#sprint{
+    color:white; 
+    font-size:80%; 
+}
+
+#hiphop1{
+	width:800px;
+	margin:auto;
+}
+
+#hiphop1b{
+	width:800px;
+	margin:auto;
+}
+
+#hiphop2{
+	width:800px;
+	margin:auto;
+	background:url("image/hiphop2.png") bottom left no-repeat;
+}
+
+#hiphopgirl1{
+	height:250px;
+	weight:800px;
+	margin:auto;
+	background:url("image/hiphop1.png") center no-repeat;
+}
+
+#ballet1{
+	margin:auto;
+	width:600px;
+	background:url("image/ballet1.png") center no-repeat;
+}
+
+#ballet2{
+	margin:auto;
+	width:900px;
+	
+}
+
+#balletgirl1{
+	margin:auto;
+	height:400px;
+	width:800px;
+	background:url("image/ballet2.png") center no-repeat;
+	
+}
+
+#tap1{
+	margin:auto;
+	width:800px;
+	background:url("image/tap1.png") center no-repeat;
+}
+
+#tap2{
+	margin:auto;
+	width:900px;
+}
+
+#tapgirl1{
+	margin:auto;
+	width:800px;
+	height:400px;
+	background:url("image/tap2.png") center no-repeat;
+}
+
+#rg1{
+	margin: auto;
+	width:900px;
+	background:url("image/rg1.png") center no-repeat;
+}
+
+#rg2{
+	margin:auto;
+	width:600px;
+	background:url("image/rg2.png") center no-repeat;
+}
+
+#all{
+	width:800px;
+	margin:auto;
+}
