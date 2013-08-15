@@ -1,0 +1,398 @@
+/******************
+* File: style.css
+* Author: Scott Larson, Mik Xin
+* Date: 9 November 2012
+*******************/
+
+body  p {
+	font-family: Arial;
+	color: white;
+	font-weight: bold;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#container { 
+	background-color: #ccccff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:0;
+	overflow: hidden;
+}
+
+#pauseContainer {
+	position:absolute;
+	left: 0;
+	top: 0;
+	
+}
+
+.hudElement {
+	color: #1FFFFF;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#btnPause {
+	position:absolute;
+	top: 3;
+	left: 3;
+	width: 80px;
+	height: 40px;
+	background: transparent;
+	border: transparent;
+	
+}
+
+#hudContainer {
+	height: 100px;
+	width: 500px;
+	position: absolute;
+	bottom:0;
+	left: 50%;
+	margin-left: -250px;
+}
+
+#playerHealth {
+	position: absolute;
+	bottom: 55;
+	left: 50%;
+	margin-left: -70px;
+	
+}
+
+#playerResources {
+	position: absolute;
+	bottom:10;
+	left: 50%;
+	margin-left: -180px;
+	background: url("resources/crystal.png") right no-repeat;
+	padding-right:50px;
+}
+
+#numWorld {
+	position: absolute;
+	bottom:10;
+	left: 50%;
+	margin-left: 25px;
+}
+
+#alerts {
+	position: absolute;
+	top: 40;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#warnHealth{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	color: #D60056;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#purchaseMenuContainer{
+    position:absolute;
+    text-align:center;
+    width: 100%;
+    z-index:2;
+    display: none;
+}
+
+#purchaseMenu{
+    width: 600px;
+    height: 600px;
+    background-image: url("resources/purchaseMenu.png");
+    margin: 50px auto;
+}
+
+#purchaseMenu h3{
+    padding-top: 20px;
+    color: #fff;
+}
+
+.purchase{
+    height: 50px;
+    width: 80%;
+    background-color: #300340;
+    opacity: 0.7;
+    border: solid #fff 1px;
+    margin:5px auto;
+    font-size: 100%;
+}
+
+.purchase p{
+/*     padding-top: 10px; */
+    font-size: 100%;
+}
+
+.purchase:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+
+/*the resume button*/
+.resume{
+    background-color: #FFE100;
+    width: 25%;   
+    height: 30px;
+}
+
+.resume p{
+    color: #000;
+}
+
+.resume:hover{
+    background-color: #FF9100;
+    cursor: pointer;
+}
+
+#purchaseInfo, #levelInfo{
+    height: 50px;
+    width: 80%;
+    color: #FAA998;
+    font-size: 110%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#upgradeInfo{
+    position:absolute;
+    left:0px;
+    top:100px;
+    width: 100px;
+    background-color: #B31CFF;
+    opacity: 0.5;
+}
+
+.upgradedItem{
+    border-bottom: solid 4px #000;
+    padding: 5px;
+    display: none;
+}
+
+.controls{
+    color: #FFCA1C;
+}
+
+#instruct{
+    position:absolute;
+    right:0px;
+    top:0px;
+    width: 150px;
+    background-color: #B31CFF;
+    opacity: 0.5;
+    padding: 5px;
+}
+
+#levelMenuContainer{
+	position:absolute;
+	text-align:center;
+	width: 100%;
+	z-index: 2;
+	display: none;
+}
+
+#levelMenu{
+	width: 600px;
+	height: 600px;
+	background-image: url("resources/purchaseMenu.png");
+	margin: 50px auto;
+}
+
+#levelMenu h3{
+	padding-top: 20px;
+	color: #fff;
+}
+
+.description{
+    width: 70%;
+    margin: 20px auto;
+}
+
+#debugDraw {
+	position:absolute;
+	height:200px;
+	width:300px;
+	bottom:0;
+	right:0;
+	z-index:1;
+}
+
+#canvas {
+	height:200px;
+	width:300px;
+	background-color:#3F3F7F;
+}
+
+#statsDiv {
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:1;
+}
+
+/*** Start page elements ***/
+div.menuPage {
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	background: url('resources/space2.jpg');
+}
+
+div.menuPage h1 {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	font-family: Arial, Tahoma, Georgia, "Bitstream Charter", serif;
+	color: white;
+}
+
+div.menuPage h3 {
+	color: #22ccee;
+	text-align: center;
+	font-family: Arial;
+	padding: 10px;
+	margin:0;
+}
+
+#story{
+    margin: 0 auto;
+    width: 850px;
+/*     height: 50%;  */
+    background: #000;
+    color: #000;
+    border: solid 3px #fff;
+    padding-top:10px;
+    max-height: 90%;
+    overflow: hidden;
+}
+
+#story p{
+     color: #fff;
+     padding: 10px;
+     line-height: 1.5em;
+     text-align: center;
+}
+
+#story img{
+    width: 280px;
+    height: 220px;
+    text-align: center;
+}
+
+.float{
+    float:left;
+    width: 30%;
+    padding-left: 15px;
+}
+
+div#startMenu  div.instructions {
+	/* margin: 10px 60px; */
+	width: 50%;
+	float:left;
+	/* padding: 20px; */
+}
+
+div#startMenu  div.instructions div {
+	text-align: center;
+	margin: 0 30px;
+}
+
+div#startMenu  div.controls {
+	/* margin: 10px 60px; */
+	float:left;
+	width:50%;
+}
+
+div#startMenu  div.controls div {
+	text-align: center;
+	margin: 10px 30px;
+}
+div#startMenu div.startBtnWrapper {
+	text-align: center;
+	/* margin: 85px 0 0 0; */
+	clear:left;
+	
+}
+
+#loadImage {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width:100%;
+	border-top: solid #fff 3px;
+	border-bottom: solid #fff 3px;
+
+}
+
+div#startMenu button#btnStart {
+	color: #3F3F3F;
+	width: 100px;
+	height: 50px;
+	font-size: 28px;
+	font-weight: bold;
+	margin:5px;
+}
+
+#deathScreen{
+    display:none;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    text-align: center;
+}
+
+.btnReload{
+    color: #3F3F3F;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#winScreen{
+    display:none;
+    width: 100%;
+    height: 100%;
+/*     background: url("resources/winScreen.png") no-repeat center #000; */
+    background: #000;
+    text-align: center;
+}
+
+#win{
+    display: none;
+}
+
+.important{
+    color: #FA91C7;
+    font-style:italic;
+}
+
+#cs679info{
+    /* 
+position: absolute;
+    top:0;
+    right:0;
+ */
+    float:right;
+    width: 280px;
+    background: #fff;
+}
+
+#cs679info p{
+    color: #000;
+    /* text-align: center; */
+    font-size: 90%;
+    padding-left: 10px;
+}
+
+/*** end Start menu ***/
