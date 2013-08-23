@@ -1,0 +1,559 @@
+*{
+	margin: 0;
+	padding: 0;
+	animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+}
+
+body {
+	background-color: #c6ffdb;
+	font-family: "Georgia","Times New Roman",serif;
+	font-size: 130%;
+	color: #335700;
+	overflow-x: hidden;
+}
+
+section {
+	overflow: hidden; 
+	overflow-x: hidden;
+	height: 800px;
+	/*width: 1500px;*/
+}
+
+.text_highlight{
+	font-size: 150%;
+	color: #63a20a;
+	font-weight: bold;
+}
+
+#intro, #madison{
+	height: 700px;
+}
+
+#junior, #senior{
+	height: 850px;
+}
+
+.left{
+	margin-left:  -1000px;
+}
+
+.right{
+	margin-right: -1000px;
+}
+
+/********************* Intro section *************************/
+#intro_title{
+	width: 100%;
+	height: 200px;
+	background: url("image/intro_title.png") center top no-repeat;
+}
+
+#me{
+	width: 100%;
+	height: 600px;
+	background: url("image/me.png") center top no-repeat;
+	z-index: 100;
+	position:fixed;
+	top:100px;
+	}
+
+#scroll{
+	width: 100%;
+	height: 400px;
+	background: url("image/scroll.png") center bottom no-repeat;
+	background-position: 70% 50%;
+}
+
+/********************* Madison section *************************/
+#capitol{
+	/*width:  100%;*/
+	/*height: 100%;*/
+	/*background: url("image/capitol.png") no-repeat;
+	background-position:30%;*/
+	position: absolute;
+	left: 20%;
+	margin-top: 100px;
+	
+}
+
+#bascom{
+	/*width:  100%;*/
+	/*height: 100%;*/
+	/*background: url("image/bascom.png") no-repeat;
+	background-position:70%;*/
+	position: absolute;
+	right: 20%;
+	margin-top: 200px;
+}
+
+#madison_text1{
+	/*width:  100%;*/
+	height: 100%;
+	position: absolute;
+	left: 25%;
+	
+	/*animation: slideLeft 2s;
+	-webkit-animation: slideLeft 2s;*/
+	}
+
+#madison_text2{
+	height: 100%;
+	position: absolute;
+	right: 25%;
+	margin-top: 5%;
+}
+
+/********************* Sophomore section *************************/
+#winter_jacket{
+	width: 100%;
+	height: 600px;
+	background: url("image/winter_jacket.png") center top no-repeat;
+	z-index: 200;
+	top:100px;
+	position:fixed;
+	visibility: hidden;
+}
+
+#sophomore_label{
+	/*width: 100%;*/
+	/*height: 140px;*/
+	/*background: url("image/banner_soph.png") left top no-repeat;*/
+	position: absolute;
+	left: 10%;
+	margin-top: -150px;
+}
+
+#fall_text{
+	position: absolute;
+	left: 20%;
+}
+
+#leave1{
+	position: absolute;
+	left: 13%;
+	margin-top: -20px;
+	opacity: 0.9;
+
+	animation: rotate 5s infinite;
+	-webkit-animation: rotate 5s infinite; /* Safari and Chrome */
+	animation-play-state: running;
+	-webkit-animation-play-state: running;
+}
+
+#leave2{
+	position: absolute;
+	left: 30%;
+	margin-top: 10px;
+	opacity: 0.9;
+	
+	animation: rotate 3s infinite alternate;
+	-webkit-animation: rotate 3s infinite alternate; /* Safari and Chrome */
+	animation-play-state: running;	
+	-webkit-animation-play-state: running;
+}
+
+#leave3{
+	position: absolute;
+	left: 20%;
+	margin-top:  80px;
+	opacity: 30%;
+	
+	animation: rotate 9s infinite;
+	-webkit-animation: rotate 9s infinite; /* Safari and Chrome */		
+	animation-play-state: running;
+	-webkit-animation-play-state: running;
+}
+
+#winter_text{
+	/*height: 100%;*/
+	position: absolute;
+	right: 20%;
+	margin-top: 10%;
+}
+
+#thanksgiving_text{
+	/*height: 100%;*/
+	position: absolute;
+	left: 15%;
+	margin-top: 20%;
+}
+
+#turkey{
+	position: absolute;
+	left: 16%;
+	margin-top: 22%;
+	
+	animation: wiggle 1s infinite;
+	-webkit-animation: wiggle 1s infinite;
+}
+
+#disneytrip_text{
+	/*height: 100%;*/
+	position: absolute;
+	right: 15%;
+	margin-top: 30%;
+	
+}
+
+#bling{
+	position: absolute;
+	right: 15%;
+	margin-top: 24%;
+	
+	animation: bling 1s infinite;
+	-webkit-animation: bling 1s infinite;
+	animation-play-state: running;
+	-webkit-animation-play-state: running;
+}
+
+#mickey{
+	position: absolute;
+	right: 13%;
+	margin-top: 15%;
+	
+	animation: float 5s infinite;
+	-webkit-animation: float 5s infinite;
+	animation-play-state: running;
+	-webkit-animation-play-state: running;
+	}
+	
+#ny{
+	position: absolute;
+	right: 7%;
+	margin-top: 30%;
+}
+
+/**css animation**/
+@keyframes rotate {
+	0%{
+		transform:rotate(0deg);
+	}
+	
+	100%{
+		transform:rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rotate {
+	0%{
+		-webkit-transform:rotate(0deg); /* Safari and Chrome */
+	}
+	
+	100%{
+		-webkit-transform:rotate(360deg); /* Safari and Chrome */
+	}
+}
+
+@keyframes wiggle {
+	0%{
+		transform:rotate(0deg);
+	}
+	50%{
+		transform:rotate(10deg);
+	}
+	100%{
+		transform:rotate(-10deg);
+	}
+}
+
+@-webkit-keyframes wiggle {
+	0%{
+		-webkit-transform:rotate(0deg);
+	}
+	50%{
+		-webkit-transform:rotate(10deg);
+	}
+	100%{
+		-webkit-transform:rotate(-10deg);
+	}
+	
+}
+
+@keyframes float {
+	0%{
+		transform:translateY(-15px);		
+	}
+	50%{
+		transform:translateY(15px);
+	}
+	100%{
+		transform:translateY(-15px);
+		
+	}
+}
+
+@-webkit-keyframes float { 
+	0%{
+		-webkit-transform:translateY(-15px);		
+	}
+	50%{
+		-webkit-transform:translateY(15px);
+	}
+	100%{
+		-webkit-transform:translateY(-15px);
+		
+	}	
+}
+
+@keyframes bling {
+	0%{
+		transform: scale(0.5);
+	}
+	50%{
+		transform: scale(0.2);
+	}
+	100%{
+		transform: scale(0.5);
+	}
+}
+
+@-webkit-keyframes bling {
+	0%{
+		-webkit-transform: scale(0.5);
+	}
+	50%{
+		-webkit-transform: scale(0.2);
+	}
+	100%{
+		-webkit-transform: scale(0.5);
+	}
+}
+
+
+/********************* Junior section *************************/
+#junior_label{
+	/*width: 100%;
+	height: 140px;
+	background: url("image/banner_jun.png") 10% top no-repeat;*/
+	
+	position: absolute;
+	left: 10%;
+	margin-top: -150px;
+		
+}
+
+#code_container{
+	overflow: hidden;
+	position:absolute;
+	left: 70%;
+	z-index: 200;
+		
+	animation: code 5s 1;
+	-webkit-animation: code 5s 1;
+}
+
+#brain{
+	height: 200px;
+	position: absolute;
+	left: 25%;
+	margin-top: 6px;
+	
+	animation: brain 1s infinite;
+	-webkit-animation: brain 1s infinite;
+}
+
+#crazyyear_text{
+	height: 100%;
+	position: absolute;
+	left: 10%;
+	/*background: url("image/code.png") 100% 0% no-repeat ;*/
+}
+
+#job_text{
+	height: 100%;
+	position: absolute;
+	right: 20%;
+	margin-top: 10%;
+}
+
+#dance{
+	position: absolute;
+	left: 10%;
+	margin-top: 25%;
+}
+
+#dance_text{
+	height: 100%;
+	position: absolute;
+	left: 15%;
+	margin-top: 20%;
+}
+
+#bridge{
+	position: absolute;
+	right: 5%;
+	margin-top: 20%;
+}
+
+#californiatrip_text{
+	height: 100%;
+	position: absolute;
+	right: 10%;
+	margin-top: 30%;
+}
+
+/* css animation */
+
+@keyframes code {
+	from{
+		width: 8px;
+	}
+	to{
+		width: 300px;
+		display: none;
+	}
+}
+
+@-webkit-keyframes code {
+	from{
+		width: 8px;
+	}
+	to{
+		width: 300px;
+	}
+}
+
+@keyframes brain {
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.3);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+@-webkit-keyframes brain {
+	0%{
+		-webkit-transform: scale(1);
+	}
+	50%{
+		-webkit-transform: scale(1.3);
+	}
+	100%{
+		-webkit-transform: scale(1);
+	}
+}
+
+
+
+/********************* Senior section *************************/
+#senior_label{
+	/*width: 100%;
+	height: 140px;
+	background: url("image/banner_sen.png") left top no-repeat;*/
+	
+	position: absolute;
+	left: 10%;
+	margin-top: -150px;
+}
+
+#thumb{
+	position: absolute;
+	left: 20%;
+	margin-top: 100px;
+}
+
+#bestyear_text{
+	height: 100%;
+	position: absolute;
+	left: 10%;
+}
+
+#football{
+	position: absolute;
+	right: 10%;
+	margin-top: 12%;
+}
+
+#football_text{
+	height: 100%;
+	position: absolute;
+	right: 20%;
+	margin-top: 5%;
+}
+
+#pumpkin{
+	position: absolute;
+	left: 21%;
+	margin-top: 30%;
+}
+
+#freakfest_text{
+	height: 100%;
+	position: absolute;
+	left: 15%;
+	margin-top: 23%;
+}
+
+#food{
+	position: absolute;
+	right: 10%;
+	margin-top: 35%;
+}
+
+#food_text{
+	height: 100%;
+	position: absolute;
+	right: 15%;
+	margin-top: 30%;
+}
+
+/********************* Graduation section *************************/
+#grad_gown{
+	width: 100%;
+	height: 600px;
+	background: url("image/grad.png") center top no-repeat;
+	z-index: 200;
+	top:100px;
+	position:fixed;
+	visibility: hidden;
+}
+
+#graduation_label{
+	/*width: 100%;
+	height: 140px;
+	background: url("image/banner_grad.png") left top no-repeat;*/
+	position: absolute;
+	left: 10%;
+	margin-top: -150px;
+}
+
+#graduated_text{
+	height: 100%;
+	position: absolute;
+	left: 10%;
+}
+
+#love{
+	position: absolute;
+	right: 5%;
+	margin-top: 8%;
+}
+
+#memories_text{
+	height: 100%;
+	position: absolute;
+	right: 5%;
+	margin-top: 5%;
+}
+
+#thankyou_text{
+	height: 100%;
+	position: absolute;
+	left: 15%;
+	margin-top: 30%;
+}
+
+#job{
+	width: 100%;
+	height: 600px;
+	background: url("image/job.png") center top no-repeat;
+	z-index: 200;
+	top:100px;
+	position:fixed;
+	visibility: hidden;
+}
