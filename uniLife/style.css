@@ -11,6 +11,7 @@ body {
 	font-size: 130%;
 	color: #335700;
 	overflow-x: hidden;
+	
 }
 
 section {
@@ -21,10 +22,12 @@ section {
 }
 
 #loading{
-	width: 100%;
-	z-index: 100;
+	z-index: 200;
 	position:fixed;
-	top:100px;
+	top:200px;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
 }
 
 .text_highlight{
