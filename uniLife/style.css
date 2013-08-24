@@ -11,7 +11,7 @@ body {
 	font-size: 130%;
 	color: #335700;
 	overflow-x: hidden;
-	
+	overflow: hidden;
 }
 
 section {

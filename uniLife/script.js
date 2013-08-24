@@ -144,6 +144,7 @@ function resetRight(element){
 }
 
 $(window).load(function(){
+	$("body").css("overflow", "visible");
 	$("#loading").css("display", "none");
 })
 
