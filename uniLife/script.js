@@ -143,4 +143,9 @@ function resetRight(element){
 	insides[element] = false;
 }
 
+$(window).load(function(){
+	$("#loading").css("display", "none");
+})
+
 $(window).scroll(scrollAction);
+

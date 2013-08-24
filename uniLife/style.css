@@ -20,6 +20,13 @@ section {
 	/*width: 1500px;*/
 }
 
+#loading{
+	width: 100%;
+	z-index: 100;
+	position:fixed;
+	top:100px;
+}
+
 .text_highlight{
 	font-size: 150%;
 	color: #63a20a;
