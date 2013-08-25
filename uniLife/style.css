@@ -1,8 +1,8 @@
 *{
 	margin: 0;
 	padding: 0;
-	animation-play-state: paused;
-	-webkit-animation-play-state: paused;
+	/*animation-play-state: paused;
+	-webkit-animation-play-state: paused;*/
 }
 
 body {
@@ -28,6 +28,10 @@ section {
 	margin: 0 auto;
 	width: 100%;
 	text-align: center;
+	transform: rotate(20deg);
+	
+	animation: wiggle 1s infinite;
+	-webkit-animation: wiggle 1s infinite;
 }
 
 .text_highlight{
@@ -257,25 +261,25 @@ section {
 
 @keyframes wiggle {
 	0%{
-		transform:rotate(0deg);
-	}
-	50%{
 		transform:rotate(10deg);
 	}
-	100%{
+	50%{
 		transform:rotate(-10deg);
+	}
+	100%{
+		transform:rotate(10deg);
 	}
 }
 
 @-webkit-keyframes wiggle {
 	0%{
-		-webkit-transform:rotate(0deg);
-	}
-	50%{
 		-webkit-transform:rotate(10deg);
 	}
-	100%{
+	50%{
 		-webkit-transform:rotate(-10deg);
+	}
+	100%{
+		-webkit-transform:rotate(10deg);
 	}
 	
 }
