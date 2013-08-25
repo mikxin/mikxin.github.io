@@ -28,7 +28,6 @@ section {
 	margin: 0 auto;
 	width: 100%;
 	text-align: center;
-	transform: rotate(20deg);
 	
 	animation: wiggle 1s infinite;
 	-webkit-animation: wiggle 1s infinite;
