@@ -7,8 +7,8 @@
 
 body {
 	background-color: #c6ffdb;
-	font-family: "Georgia","Times New Roman",serif;
-	font-size: 130%;
+	font-family: "Sunshiney", cursive, "Georgia","Times New Roman", serif;
+	font-size: 140%;
 	color: #335700;
 	overflow-x: hidden;
 	overflow: hidden;
@@ -140,6 +140,7 @@ section {
 #fall_text{
 	position: absolute;
 	left: 20%;
+    margin-top:-2%;
 }
 
 #leave1{
@@ -233,7 +234,7 @@ section {
 	
 #ny{
 	position: absolute;
-	right: 7%;
+	right: 6%;
 	margin-top: 30%;
 }
 
@@ -383,7 +384,7 @@ section {
 #dance{
 	position: absolute;
 	left: 10%;
-	margin-top: 25%;
+	margin-top: 28%;
 }
 
 #dance_text{
@@ -467,7 +468,7 @@ section {
 #thumb{
 	position: absolute;
 	left: 20%;
-	margin-top: 100px;
+	margin-top: 8%;
 }
 
 #bestyear_text{
@@ -492,7 +493,7 @@ section {
 #pumpkin{
 	position: absolute;
 	left: 21%;
-	margin-top: 30%;
+	margin-top: 32%;
 }
 
 #freakfest_text{
@@ -505,7 +506,7 @@ section {
 #food{
 	position: absolute;
 	right: 10%;
-	margin-top: 35%;
+	margin-top: 37%;
 }
 
 #food_text{
